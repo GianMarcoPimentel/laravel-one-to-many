@@ -17,7 +17,7 @@ class PostController extends Controller
     {
         $posts = Post::all();
 
-        //dd($post);
+        dd($post);
 
         return view('admin.posts.index', compact('posts')); 
         /* return('siamo nell index dei post'); */
